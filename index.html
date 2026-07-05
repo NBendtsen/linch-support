@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Linch — Support</title>
+  <meta name="description" content="Support and help for Linch, the offline note-taking and storage-organizing app for iPhone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f6efe4;
+      --surface: #fbf6ee;
+      --ink: #2b2622;
+      --muted: #7a7066;
+      --accent: #b5552f;
+      --hairline: #e4daca;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Hanken Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+    header { margin-bottom: 56px; }
+    .wordmark {
+      font-family: "Playfair Display", Georgia, serif;
+      font-weight: 700;
+      font-size: 40px;
+      letter-spacing: 0.5px;
+      margin: 0;
+    }
+    .tagline {
+      color: var(--muted);
+      margin: 8px 0 0;
+      font-size: 18px;
+    }
+    section { margin-top: 48px; }
+    h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      color: var(--accent);
+      margin: 0 0 18px;
+      font-weight: 600;
+    }
+    p { margin: 0 0 16px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 16px;
+      padding: 24px 26px;
+    }
+    .contact-email {
+      font-size: 20px;
+      font-weight: 600;
+      display: inline-block;
+      margin-top: 4px;
+    }
+    .faq-item { padding: 20px 0; border-bottom: 1px solid var(--hairline); }
+    .faq-item:last-child { border-bottom: 0; padding-bottom: 0; }
+    .faq-item:first-child { padding-top: 0; }
+    .faq-q { font-weight: 600; margin: 0 0 6px; }
+    .faq-a { color: var(--muted); margin: 0; }
+    footer {
+      margin-top: 72px;
+      padding-top: 24px;
+      border-top: 1px solid var(--hairline);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14110e;
+        --surface: #1d1915;
+        --ink: #ece5da;
+        --muted: #9b9186;
+        --accent: #d9784f;
+        --hairline: #2c261f;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 class="wordmark">Linch</h1>
+      <p class="tagline">Catalog your stuff, offline.</p>
+    </header>
+
+    <section>
+      <h2>Support</h2>
+      <div class="card">
+        <p>Questions, bug reports, or feedback? Get in touch and you'll get a reply as soon as possible.</p>
+        <a class="contact-email" href="mailto:darkrootdigital@gmail.com">darkrootdigital@gmail.com</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">Where is my data stored?</p>
+        <p class="faq-a">Everything lives only on your iPhone. Linch is fully offline: there is no account, no sign-up, and no server. Your notes and photos never leave your device.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">How do I back up my data?</p>
+        <p class="faq-a">Open Settings and choose Export. Linch bundles all your rooms, boxes, notes, and photos into a single file you can save anywhere. To move to a new device or restore, use Import and pick that file.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What does Linch Pro include?</p>
+        <p class="faq-a">The free version includes three rooms, three boxes, and one checklist. Linch Pro removes those limits so you can create as many as you like. It is a one-time purchase, not a subscription.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">I bought Pro but it isn't showing.</p>
+        <p class="faq-a">Open Settings and tap Restore Purchases. Your purchase is tied to your Apple ID and can be restored on any device signed in with the same account.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">I forgot a room's PIN.</p>
+        <p class="faq-a">A room's PIN is stored only on your device and cannot be recovered. If you forget it, the room can still be deleted, but its contents cannot be unlocked without the PIN.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Privacy</h2>
+      <p>Linch does not collect any data. It makes no network requests for your content, has no analytics, and has no accounts. The only exception is the in-app purchase, which is handled entirely by Apple.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Linch. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
